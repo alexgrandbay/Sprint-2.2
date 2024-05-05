@@ -1,0 +1,10 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.main-container {
+  width: 1000px;
+  margin: 0 auto; /* This will center the container horizontally */
+  text-align: left; /* Reset text alignment for inner content */
+}

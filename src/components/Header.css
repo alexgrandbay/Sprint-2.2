@@ -1,0 +1,49 @@
+/* Header.css */
+.header {
+  background-color: #ed642e;
+  padding: 20px 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto; /* This will center the container horizontally */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Adjust the size of the logo as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav ul li:last-child {
+  margin-right: 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav ul li a:hover {
+  color: #292929;
+}
